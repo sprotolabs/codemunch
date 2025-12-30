@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codemunch - Learn to Code</title>
+    <style>
+        /* Type Scale: 1.25 ratio (Major Third) */
+        /* Base: 16px, Scale: 12.8, 16, 20, 25, 31.25, 39, 48.8, 61 */
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #2E7D32 0%, #388E3C 50%, #2E7D32 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            line-height: 1.5;
+            padding: 48px 24px;
+        }
+
+        .logo {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .logo h1 {
+            color: white;
+            font-size: 4rem; /* 64px */
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            text-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        }
+
+        .logo p {
+            color: rgba(255, 255, 255, 0.95);
+            font-size: 1.25rem; /* 20px */
+            font-weight: 400;
+            margin-top: 16px;
+            letter-spacing: 0.02em;
+            text-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 32px;
+            margin-top: 40px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .card h2 {
+            text-align: center;
+            font-size: 1.563rem; /* 25px */
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: #1a1a1a;
+        }
+
+        .btn {
+            width: 100%;
+            padding: 16px 24px;
+            border: none;
+            border-radius: 10px;
+            background-color: #2E7D32;
+            color: white;
+            font-size: 1rem; /* 16px */
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 12px;
+            transition: all 0.2s ease;
+            box-shadow: 0 2px 8px rgba(46,125,50,0.3);
+        }
+
+        .btn:first-of-type {
+            margin-top: 20px;
+        }
+
+        .btn:hover {
+            background-color: #1B5E20;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(46,125,50,0.4);
+        }
+
+        .features {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .feature {
+            background: rgba(255,255,255,0.18);
+            padding: 24px 20px;
+            border-radius: 12px;
+            text-align: center;
+            color: white;
+            width: 160px;
+            border: 1px solid rgba(255,255,255,0.25);
+            transition: transform 0.2s ease, background 0.2s ease;
+        }
+
+        .feature:hover {
+            transform: translateY(-2px);
+            background: rgba(255,255,255,0.25);
+        }
+
+        .feature-icon {
+            font-size: 2.5rem; /* 40px */
+            margin-bottom: 12px;
+            display: block;
+        }
+
+        .feature p {
+            font-size: 0.875rem; /* 14px */
+            font-weight: 600;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <h1>codemunch</h1>
+        <p>Learn to code, one bite at a time</p>
+    </div>
+
+    <div class="features">
+        <div class="feature">
+            <div class="feature-icon">📚</div>
+            <p>Interactive Lessons</p>
+        </div>
+        <div class="feature">
+            <div class="feature-icon">🎯</div>
+            <p>Practice Projects</p>
+        </div>
+        <div class="feature">
+            <div class="feature-icon">🏆</div>
+            <p>Earn Certificates</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>Select Language</h2>
+        <button class="btn">हिंदी</button>
+        <button class="btn">English</button>
+    </div>
+</body>
+</html>
