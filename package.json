@@ -1,0 +1,11 @@
+{
+  "name": "codemunch-landing",
+  "version": "1.0.0",
+  "description": "Codemunch landing page",
+  "scripts": {
+    "screenshot": "node screenshot.js"
+  },
+  "dependencies": {
+    "playwright": "^1.40.0"
+  }
+}
